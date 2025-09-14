@@ -1,0 +1,24 @@
+{
+  "name": "colorscales-uielement",
+  "private": true,
+  "version": "0.0.0",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "vite": "^7.1.5"
+  },
+  "scripts": {
+    "dev": "bunx --bun vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/culori": "^4.0.1",
+    "@zeix/ui-element": "^0.14.0",
+    "culori": "^4.0.2"
+  }
+}

@@ -1,0 +1,8 @@
+@import "./global.css";
+
+@import "./components/card-colorscale/card-colorscale.css";
+@import "./components/form-colorgraph/form-colorgraph.css";
+@import "./components/form-textbox/form-textbox.css";
+@import "./components/module-coloreditor/module-coloreditor.css";
+@import "./components/module-colorinfo/module-colorinfo.css";
+@import "./components/section-hero/section-hero.css";
