@@ -41,7 +41,7 @@ function getNumberFormatter(
       o.currency.length !== 3
     ) {
       onError?.(
-        `style="currency" requires a 3-letter ISO currency (e.g. "CHF").`,
+        `Style "currency" requires a 3-letter ISO currency (e.g. "CHF").`,
       );
       return useFallback();
     }
@@ -52,7 +52,7 @@ function getNumberFormatter(
   if (style === "unit") {
     if (!o.unit || typeof o.unit !== "string") {
       onError?.(
-        `style="unit" requires a "unit" (e.g. "liter", "kilometer-per-hour").`,
+        `Style "unit" requires a unit (e.g. "liter", "kilometer-per-hour").`,
       );
       return useFallback();
     }
